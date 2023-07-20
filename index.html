@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <link rel="stylesheet" href="styles.css">
+<div>
+    <h1>Welcome!</h1>
+    <p>Welcome to the Username generator! This generator will pick between thousands of usernames for you.</p>
+  
+</div>
+
+<h1>Your username is:</h1>
+<p id="username_result">
+    Press start.
+</p>
+
+<script>
+        var myArray = ['Mr', 'Pie', "Mrs", "Face", "Tree", "Bacon", "Ms","Egg","Cake","Carrot","Whale","Epic","Small","Mother","Chicken","Deez","Big","Nuts","Nutsack","Moan","Anime","Girl","Daddy","Milk", "Me","Mommy","Balls","Shaped","Things","Ballsack","Cum","Sleep","In","Your","Penis","Cucumber","Eggplant","Pickle","Diamond","Doggy","Style",
+    ];
+
+
+
+
+
+    function setUsername() {
+        var rand = Math.floor(Math.random() * myArray.length);
+        var rand2 = Math.floor(Math.random() * myArray.length);
+        var rand3 = Math.floor(Math.random() * myArray.length);
+        var concat = myArray[rand] + myArray[rand2] +myArray[rand3]  ;
+    document.getElementById("username_result").innerHTML = (concat);
+}
+</script>
+
+<button onclick='setUsername()'>
+    Start!
+</button>
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,19 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: rgb(255,255,255);
+    text-align: center;
+    scrollbar-color: rgb(255,255,255);
+  }
+
+  h1 {
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 30px;
+    text-align: center;
+  }
+
+
